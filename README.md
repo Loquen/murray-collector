@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/TGhY9yA.png">
+<img src="https://s3-us-west-1.amazonaws.com/collectorofcats/59adea.jpeg">
 
 # Bill Murray Collector
 
