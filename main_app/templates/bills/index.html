@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Bills List</h1>
+
+{% for bill in bills %}
+  <div class="card">
+    <a href="{% url 'detail' bill.id %}">
+      <div class="card-content">
+        <span class="card-title">{{ bill.name }}</span>
+        <p>Movie: {{ bill.movie }}</p>
+        <p>Description: {{ bill.description }}</p>
+        <p>Release Year: {{ bill.release }}</p>
+      </div>
+    </a>
+  </div>
+{% endfor %}
+
+{% endblock %}
